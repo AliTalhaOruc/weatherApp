@@ -82,7 +82,7 @@ export const GardropPage = () => {
         setLoadingchatgpt(true);
 
         try {
-            const result = await axios.post("http://10.98.179.58:5000/chat", {
+            const result = await axios.post("http://localhost:5000/chat", {
                 prompt: prompt
             });
 
