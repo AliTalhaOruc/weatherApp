@@ -20,3 +20,14 @@ npx expo start
 cd backend
 npm install
 node server.js
+
+## 📱 Uygulama Görselleri
+
+<p align="center">
+  <img src="assets/screen1.jpeg" width="250"/>
+  <img src="assets/screen2.jpeg" width="250"/>
+  <img src="assets/screen3.jpeg" width="250"/>
+  <img src="assets/screen4.jpeg" width="250"/>
+  <img src="assets/screen5.jpeg" width="250"/>
+  <img src="assets/screen6.jpeg" width="250"/>
+</p>

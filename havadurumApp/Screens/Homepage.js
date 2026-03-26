@@ -40,6 +40,8 @@ export const HomePage = () => {
 
     const fetchForecast = async (city) => {
         try {
+            console.log(API_KEY);
+
             const response = await axios.get(
                 `https://api.openweathermap.org/data/2.5/forecast?q=${city}&appid=${API_KEY}&units=metric&lang=tr`
             );
@@ -249,7 +251,7 @@ export const HomePage = () => {
                                     }
 
                                 }} style={[styles.searchicon, { backgroundColor: switchtoogle ? "white" : nightthemecolor }]}>
-                                    <AntDesign name="search1" size={28} color="black" />
+                                    <AntDesign name="search" size={28} color="black" />
                                 </TouchableOpacity>
                             </View>
                         </View>
